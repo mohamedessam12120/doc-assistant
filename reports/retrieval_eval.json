@@ -1,0 +1,167 @@
+{
+  "summary": {
+    "questions": 26,
+    "hit_at_1": 0.538,
+    "hit_at_3": 0.615,
+    "in_scope_top1_distance_max": 0.847,
+    "out_of_scope_top1_distance_min": 0.755
+  },
+  "results": [
+    {
+      "question": "How many days of annual leave do I get?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.45
+    },
+    {
+      "question": "How many leave days after 10 years of service?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.436
+    },
+    {
+      "question": "How early must I request a long leave?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.57
+    },
+    {
+      "question": "Can I carry over unused annual leave?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.58
+    },
+    {
+      "question": "When do carried-over leave days expire?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.575
+    },
+    {
+      "question": "How many paid sick days per year?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.677
+    },
+    {
+      "question": "When do I need a medical certificate?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.847
+    },
+    {
+      "question": "How long is maternity leave?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.325
+    },
+    {
+      "question": "When must paternity leave be taken?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.458
+    },
+    {
+      "question": "How many days of emergency leave are there?",
+      "hit1": false,
+      "hit3": true,
+      "top1_distance": 0.556
+    },
+    {
+      "question": "How long can unpaid leave be?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.499
+    },
+    {
+      "question": "What are the standard working hours?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.368
+    },
+    {
+      "question": "What are the core hours?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.541
+    },
+    {
+      "question": "How is overtime paid?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.635
+    },
+    {
+      "question": "How many days can I work remotely?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.354
+    },
+    {
+      "question": "Can I work from home during probation?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.588
+    },
+    {
+      "question": "When must I report a lost device?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.838
+    },
+    {
+      "question": "How much is the transport allowance?",
+      "hit1": false,
+      "hit3": true,
+      "top1_distance": 0.647
+    },
+    {
+      "question": "Does health insurance cover my family?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.622
+    },
+    {
+      "question": "How big is the annual bonus?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.531
+    },
+    {
+      "question": "What is the yearly training budget?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.749
+    },
+    {
+      "question": "What is the hotel limit per night when traveling?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.718
+    },
+    {
+      "question": "What is the daily meal allowance on trips?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.736
+    },
+    {
+      "question": "How fast must I submit expense receipts?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.567
+    },
+    {
+      "question": "Which expense claims need director approval?",
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.552
+    },
+    {
+      "question": "How much is the mileage reimbursement?",
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.667
+    }
+  ]
+}
