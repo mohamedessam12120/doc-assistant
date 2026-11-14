@@ -26,7 +26,7 @@ def chunk_text(text, size=CHUNK_SIZE, overlap=OVERLAP):
         start = end - overlap
         nxt = text.find(" ", start)  # move to the next word boundary
         start = min(nxt + 1, end) if nxt != -1 else end
-        return chunks
+    return chunks
 
 
 def main():

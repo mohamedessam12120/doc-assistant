@@ -1,53 +1,53 @@
 {
   "summary": {
     "questions": 26,
-    "hit_at_1": 0.538,
-    "hit_at_3": 0.615,
-    "in_scope_top1_distance_max": 0.847,
+    "hit_at_1": 0.808,
+    "hit_at_3": 0.923,
+    "in_scope_top1_distance_max": 0.666,
     "out_of_scope_top1_distance_min": 0.755
   },
   "results": [
     {
       "question": "How many days of annual leave do I get?",
-      "hit1": true,
-      "hit3": true,
-      "top1_distance": 0.45
+      "hit1": false,
+      "hit3": false,
+      "top1_distance": 0.306
     },
     {
       "question": "How many leave days after 10 years of service?",
-      "hit1": true,
+      "hit1": false,
       "hit3": true,
-      "top1_distance": 0.436
+      "top1_distance": 0.42
     },
     {
       "question": "How early must I request a long leave?",
       "hit1": true,
       "hit3": true,
-      "top1_distance": 0.57
+      "top1_distance": 0.419
     },
     {
       "question": "Can I carry over unused annual leave?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.58
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.475
     },
     {
       "question": "When do carried-over leave days expire?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.575
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.396
     },
     {
       "question": "How many paid sick days per year?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.677
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.383
     },
     {
       "question": "When do I need a medical certificate?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.847
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.537
     },
     {
       "question": "How long is maternity leave?",
@@ -64,14 +64,14 @@
     {
       "question": "How many days of emergency leave are there?",
       "hit1": false,
-      "hit3": true,
-      "top1_distance": 0.556
+      "hit3": false,
+      "top1_distance": 0.433
     },
     {
       "question": "How long can unpaid leave be?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.499
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.28
     },
     {
       "question": "What are the standard working hours?",
@@ -81,15 +81,15 @@
     },
     {
       "question": "What are the core hours?",
-      "hit1": true,
+      "hit1": false,
       "hit3": true,
-      "top1_distance": 0.541
+      "top1_distance": 0.516
     },
     {
       "question": "How is overtime paid?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.635
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.428
     },
     {
       "question": "How many days can I work remotely?",
@@ -105,15 +105,15 @@
     },
     {
       "question": "When must I report a lost device?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.838
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.666
     },
     {
       "question": "How much is the transport allowance?",
-      "hit1": false,
+      "hit1": true,
       "hit3": true,
-      "top1_distance": 0.647
+      "top1_distance": 0.459
     },
     {
       "question": "Does health insurance cover my family?",
@@ -129,21 +129,21 @@
     },
     {
       "question": "What is the yearly training budget?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.749
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.385
     },
     {
       "question": "What is the hotel limit per night when traveling?",
       "hit1": true,
       "hit3": true,
-      "top1_distance": 0.718
+      "top1_distance": 0.342
     },
     {
       "question": "What is the daily meal allowance on trips?",
       "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.736
+      "hit3": true,
+      "top1_distance": 0.369
     },
     {
       "question": "How fast must I submit expense receipts?",
@@ -159,9 +159,9 @@
     },
     {
       "question": "How much is the mileage reimbursement?",
-      "hit1": false,
-      "hit3": false,
-      "top1_distance": 0.667
+      "hit1": true,
+      "hit3": true,
+      "top1_distance": 0.416
     }
   ]
 }
