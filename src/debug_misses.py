@@ -2,16 +2,8 @@ import chromadb
 from chromadb.utils import embedding_functions
 
 MISSES = {
-    "Can I carry over unused annual leave?": "5 unused annual leave days",
-    "When do carried-over leave days expire?": "31 March",
-    "How many paid sick days per year?": "15 days of paid sick leave",
-    "When do I need a medical certificate?": "more than 2 consecutive days",
-    "How long can unpaid leave be?": "Unpaid leave of up to 30 days",
-    "How is overtime paid?": "1.5 times",
-    "When must I report a lost device?": "within 24 hours",
-    "What is the yearly training budget?": "20,000 EGP per year",
-    "What is the daily meal allowance on trips?": "600 EGP",
-    "How much is the mileage reimbursement?": "4 EGP per kilometer",
+    "How many days of annual leave do I get?": "21 working days",
+    "How many days of emergency leave are there?": "up to 3 working days per year",
 }
 
 
