@@ -8,10 +8,15 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER app
+
+# Download the embedding model with retries, so Chroma finds it ready (cached layer)
+COPY --chown=app:app src/fetch_model.py src/fetch_model.py
+RUN python src/fetch_model.py
+
 COPY --chown=app:app docs/ docs/
 COPY --chown=app:app src/ src/
 
-# Build the vector database at image build time (this also caches the embedding model)
+# Build the vector database at image build time
 RUN python src/ingest.py
 
 EXPOSE 8000
