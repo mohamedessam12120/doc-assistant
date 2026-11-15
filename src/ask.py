@@ -21,13 +21,14 @@ collection = chromadb.PersistentClient(path="chroma_db").get_collection(
 )
 
 
-def ask(question):
+def ask_detailed(question):
     res = collection.query(query_texts=[question], n_results=TOP_K)
     docs, metas, dists = res["documents"][0], res["metadatas"][0], res["distances"][0]
+    top_distance = round(dists[0], 3)
 
     # Gate: if even the best chunk is far from the question, do not call the LLM
     if dists[0] > MAX_DISTANCE:
-        return NO_ANSWER, []
+        return {"answer": NO_ANSWER, "sources": [], "top_distance": top_distance, "refused": True}
 
     context = "\n\n".join(f"[{m['source']} p.{m['page']}]\n{d}" for d, m in zip(docs, metas))
     reply = ollama.chat(
@@ -38,8 +39,16 @@ def ask(question):
         ],
         options={"temperature": 0},
     )
-    sources = sorted({f"{m['source']} p.{m['page']}" for m in metas})
-    return reply["message"]["content"], sources
+    answer = reply["message"]["content"]
+    refused = answer.strip().lower().startswith("i don't know")
+    # Show only the 2 closest chunks as sources, not all 5
+    sources = [] if refused else [{"source": m["source"], "page": m["page"]} for m in metas[:2]]
+    return {"answer": answer, "sources": sources, "top_distance": top_distance, "refused": refused}
+
+
+def ask(question):
+    r = ask_detailed(question)
+    return r["answer"], [f"{s['source']} p.{s['page']}" for s in r["sources"]]
 
 
 if __name__ == "__main__":
