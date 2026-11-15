@@ -10,9 +10,10 @@ MAX_DISTANCE = 0.71  # tentative, based on our 26-question set (in-scope <= 0.67
 NO_ANSWER = "I don't know based on the provided documents."
 
 SYSTEM = (
-    "You are an HR policy assistant. Answer ONLY using the context provided. "
+    "You are an HR policy assistant. Answer ONLY with facts that are explicitly stated in the context. "
+    "Do not infer, guess, or answer 'No' just because something is not mentioned. "
     "Be short and give the exact numbers. "
-    f"If the answer is not in the context, reply exactly: {NO_ANSWER}"
+    f"If the context does not explicitly contain the answer, reply exactly: {NO_ANSWER}"
 )
 
 collection = chromadb.PersistentClient(path="chroma_db").get_collection(

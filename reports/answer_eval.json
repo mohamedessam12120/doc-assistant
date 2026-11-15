@@ -1,0 +1,158 @@
+{
+  "summary": {
+    "in_scope_correct": "26/26",
+    "out_of_scope_refused": "4/4"
+  },
+  "results": [
+    {
+      "question": "How many days of annual leave do I get?",
+      "answer": "According to the leave policy, full-time employees are entitled to 21 working days of paid annual leave per year.",
+      "correct": true
+    },
+    {
+      "question": "How many leave days after 10 years of service?",
+      "answer": "30 working days.",
+      "correct": true
+    },
+    {
+      "question": "How early must I request a long leave?",
+      "answer": "According to p.1 of the leave policy, for a long leave request (longer than 5 working days), you must submit the request at least 14 days in advance through the HR portal and approved by the direct manager.",
+      "correct": true
+    },
+    {
+      "question": "Can I carry over unused annual leave?",
+      "answer": "Yes, up to 5 unused annual leave days may be carried over to the next year.",
+      "correct": true
+    },
+    {
+      "question": "When do carried-over leave days expire?",
+      "answer": "According to the leave policy, any remaining unused annual leave days expire on 31 March.",
+      "correct": true
+    },
+    {
+      "question": "How many paid sick days per year?",
+      "answer": "15 days of paid sick leave per year.",
+      "correct": true
+    },
+    {
+      "question": "When do I need a medical certificate?",
+      "answer": "According to the leave policy (p.1), a medical certificate is required when the absence lasts more than 2 consecutive days.",
+      "correct": true
+    },
+    {
+      "question": "How long is maternity leave?",
+      "answer": "90 calendar days.",
+      "correct": true
+    },
+    {
+      "question": "When must paternity leave be taken?",
+      "answer": "Paternity leave must be taken within 30 days of the birth.",
+      "correct": true
+    },
+    {
+      "question": "How many days of emergency leave are there?",
+      "answer": "There are 3 working days of emergency leave available per year.",
+      "correct": true
+    },
+    {
+      "question": "How long can unpaid leave be?",
+      "answer": "Up to 30 days.",
+      "correct": true
+    },
+    {
+      "question": "What are the standard working hours?",
+      "answer": "The standard working hours are 9:00 to 17:00, Sunday to Thursday.",
+      "correct": true
+    },
+    {
+      "question": "What are the core hours?",
+      "answer": "The core hours are 10:00 to 15:00.",
+      "correct": true
+    },
+    {
+      "question": "How is overtime paid?",
+      "answer": "Overtime is paid at 1.5 times the normal hourly rate.",
+      "correct": true
+    },
+    {
+      "question": "How many days can I work remotely?",
+      "answer": "According to the policy, you can work remotely up to 2 days per week with manager approval.",
+      "correct": true
+    },
+    {
+      "question": "Can I work from home during probation?",
+      "answer": "No, employees in their probation period (first 3 months) cannot work remotely.",
+      "correct": true
+    },
+    {
+      "question": "When must I report a lost device?",
+      "answer": "According to the Security Requirements section in the working hours and remote work document, lost or stolen devices must be reported to IT within 24 hours.",
+      "correct": true
+    },
+    {
+      "question": "How much is the transport allowance?",
+      "answer": "The transport allowance is 1,500 EGP per month.",
+      "correct": true
+    },
+    {
+      "question": "Does health insurance cover my family?",
+      "answer": "Yes, health insurance covers up to 3 dependents (spouse and children).",
+      "correct": true
+    },
+    {
+      "question": "How big is the annual bonus?",
+      "answer": "According to the benefits and insurance policy (p.2), the annual performance bonus is up to one month of salary.",
+      "correct": true
+    },
+    {
+      "question": "What is the yearly training budget?",
+      "answer": "20,000 EGP per year.",
+      "correct": true
+    },
+    {
+      "question": "What is the hotel limit per night when traveling?",
+      "answer": "3,000 EGP.",
+      "correct": true
+    },
+    {
+      "question": "What is the daily meal allowance on trips?",
+      "answer": "According to the context, the daily meal allowance during travel is 600 EGP.",
+      "correct": true
+    },
+    {
+      "question": "How fast must I submit expense receipts?",
+      "answer": "Within 10 working days after the trip.",
+      "correct": true
+    },
+    {
+      "question": "Which expense claims need director approval?",
+      "answer": "According to the Business Travel and Expenses Policy (p.2), expense claims above 5,000 EGP need approval from the department director.",
+      "correct": true
+    },
+    {
+      "question": "How much is the mileage reimbursement?",
+      "answer": "The mileage reimbursement is 4 EGP per kilometer.",
+      "correct": true
+    },
+    {
+      "question": "What is the company dress code?",
+      "answer": "I don't know based on the provided documents.",
+      "refused": true
+    },
+    {
+      "question": "How do I reset my laptop password?",
+      "answer": "I don't know based on the provided documents.",
+      "refused": true
+    },
+    {
+      "question": "Who is the CEO of the company?",
+      "answer": "I don't know based on the provided documents.",
+      "refused": true
+    },
+    {
+      "question": "Is there a gym membership benefit?",
+      "answer": "I don't know based on the provided documents.",
+      "refused": true
+    }
+  ]
+}
