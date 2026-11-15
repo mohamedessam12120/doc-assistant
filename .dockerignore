@@ -1,0 +1,10 @@
+.venv
+.git
+.github
+chroma_db
+data
+reports
+tests
+__pycache__
+*.pyc
+.env

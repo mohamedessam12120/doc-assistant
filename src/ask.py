@@ -1,3 +1,4 @@
+import os
 import sys
 
 import chromadb
@@ -19,7 +20,7 @@ SYSTEM = (
 collection = chromadb.PersistentClient(path="chroma_db").get_collection(
     "policies", embedding_function=embedding_functions.DefaultEmbeddingFunction()
 )
-
+ollama_client = ollama.Client(host=os.environ.get("OLLAMA_HOST", "http://localhost:11434"))
 
 def ask_detailed(question):
     res = collection.query(query_texts=[question], n_results=TOP_K)
@@ -31,7 +32,7 @@ def ask_detailed(question):
         return {"answer": NO_ANSWER, "sources": [], "top_distance": top_distance, "refused": True}
 
     context = "\n\n".join(f"[{m['source']} p.{m['page']}]\n{d}" for d, m in zip(docs, metas))
-    reply = ollama.chat(
+    reply = ollama_client.chat(
         model=MODEL,
         messages=[
             {"role": "system", "content": SYSTEM},
