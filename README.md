@@ -7,6 +7,16 @@ the assistant says it does not know instead of guessing.
 Runs fully locally: ChromaDB for retrieval, Ollama (`llama3.2:3b`) for answers,
 FastAPI for the service, Docker for packaging. All documents are fictional.
 
+## Demo
+
+Answer with its source:
+
+![Answer with sources](assets/ask_answer.png)
+
+A question outside the documents is refused:
+
+![Refused question](assets/ask_refused.png)
+
 ## How it works
 
 ```
